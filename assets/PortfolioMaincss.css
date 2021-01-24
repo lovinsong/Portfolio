@@ -1,0 +1,42 @@
+/* body {
+    background-color: #474747;
+  } */
+.typer {
+    text-transform: capitalize;
+    font-size: 3rem;
+    white-space: nowrap;
+    color: transparent;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    /* //텍스트를 정 가운데에 고정시켜 주려면 이것 필수! */
+  }
+.typer::before {
+    content: "성실한 개발자 송만기의 포트폴리오입니다.";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 115%;
+    height: 100%;
+    color: white;
+    overflow: hidden;
+    border-right: 3px solid white;
+    /* 이건 커서역할을 하는거예욥 */
+    animation: typing 5s steps(40) none;
+  }
+  /* 이제 keyframe을 이용해 에니메이션을 만들어요~
+   */
+  @keyframes typing {
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 115%;
+    }
+    100% {
+      width: 115%;
+    }
+  }
+  

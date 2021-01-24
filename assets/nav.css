@@ -1,0 +1,32 @@
+*{
+    font-family: "야놀자 야체";
+  }
+h1{
+    animation: typing 4s steps(16);
+    font-size: 4rem;
+    overflow: hidden;
+    white-space: nowrap; 
+    font-family: "야놀자 야체";
+    border-right: 3px solid white;
+    /* transform: translate(-50%, -50%); */
+    
+}
+h2{
+    font-size: 40px;
+}
+
+body{
+  background-color: #646871;
+}
+
+@keyframes typing {
+    0% {
+      width: 0%;
+    }
+    50% {
+      width: 50%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
