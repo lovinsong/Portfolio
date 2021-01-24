@@ -30,3 +30,26 @@ body{
       width: 100%;
     }
   }
+#boxes:hover{
+  opacity: 0.5;
+
+}
+#icon:hover{
+  opacity: 0.5;
+}
+#btn{
+  background-color: transparent;
+  border: 0px none;
+  clear:none;
+  outline: 0;
+}
+#btn2{
+  background-color: transparent;
+  border: 0px none;
+  clear:none;
+  outline: 0;
+}
+#icon{
+  width:100px;
+  filter:invert();
+}

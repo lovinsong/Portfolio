@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Devloper Song</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/nav.css">
+    <link rel="stylesheet" href="./assets/main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp">        
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
  
@@ -75,7 +75,7 @@
       <div class="col-md-10 text-center text-light">
         <h2>소통에 능한 성실한 개발자</h2>
         <section class="about_me_section">
-          <p>어릴때 부터 호기심이 많은 성격에 만들어 보았던 간단한 계산기 프로그램으로 무언가를 만드는 것의 재미를 느끼게 되었고 그때부터 개발자를 꿈꾸게 되었습니다.<br>
+          <p style="font-size: 1.3em;">어릴때 부터 호기심이 많은 성격에 만들어 보았던 간단한 계산기 프로그램으로 무언가를 만드는 것의 재미를 느끼게 되었고 그때부터 개발자를 꿈꾸게 되었습니다.<br>
              그래서 대학교도 컴퓨터공학과를 가게 되었고 자연스럽게 많은것을 개발하게 될 수 있었습니다.<br>
              그 중 Javascript가 가지고 있는 가능성과 다양성에 매력을 느끼게 되어 백엔드 개발자 2년차를 향해 달려가고 있습니다.<br>
              계속해서 완성도 높은 개발을 위해 매일 고뇌하는 개발자가 되도록 하겠습니다. 잘부탁드립니다.</p></section>
@@ -200,16 +200,21 @@
 <!-- 아래부터 프로젝트 컨텐츠-->
 <div class="container">
   <hr>
-  <div class="row text-center text-light">
-    <h2><a name="Project">Project</a></h2>
+  <div class="row text-light">
+    <h2 style="text-align: center;"><a name="Project">Project</a></h2>
     <div class="p-2"></div>
     <div class="Box">
     <div class="row my-5">
       <div class="col-md-7">
-      <img src="./assets/img/프로젝트1.jpg" alt="" class="w-100">
+      <img id="boxes" src="./assets/img/프로젝트1.jpg" alt="프로젝트1" class="w-100">
       </div>  
-      <div class="col-md-5">
-        <h2>글씨입니다.</h2>
+      <div class="col-md-5 text-right">
+        <ul style="list-style-type: none;">
+          <li style="font-size: 2.5em;">프로젝트명:</li><br>
+          <li style="font-size: 2.5em;">기간:</li><br>
+          <li style="font-size: 2.5em;">참여인원:</li><br>
+          <li style="font-size: 2.5em;">피드백:</li><br>
+        </ul>
       </div>  
     </div>
   </div>
@@ -217,10 +222,15 @@
   <div class="Box">
     <div class="row my-5">
       <div class="col-md-7">
-        <img src="./assets/img/프로젝트2.jpg" alt="" class="w-100">
+        <img id="boxes" src="./assets/img/프로젝트2.jpg" alt="프로젝트2" class="w-100">
         </div>  
         <div class="col-md-5">
-          <h2>글씨입니다.</h2>
+          <ul style="list-style-type: none;">
+            <li style="font-size: 2.5em;">프로젝트명:</li><br>
+            <li style="font-size: 2.5em;">기간:</li><br>
+            <li style="font-size: 2.5em;">참여인원:</li><br>
+            <li style="font-size: 2.5em;">피드백:</li><br>
+          </ul>
         </div> 
     </div>
   </div>
@@ -228,10 +238,15 @@
   <div class="Box">
     <div class="row my-5">
       <div class="col-md-7">
-      <img src="./assets/img/프로젝트3.jpg" alt="" class="w-100">
+      <img id="boxes" src="./assets/img/프로젝트3.jpg" alt="프로젝트3" class="w-100">
       </div>  
       <div class="col-md-5">
-        <h2>글씨입니다.</h2>
+        <ul style="list-style-type: none;">
+          <li style="font-size: 2.5em;">프로젝트명:</li><br>
+          <li style="font-size: 2.5em;">기간:</li><br>
+          <li style="font-size: 2.5em;">참여인원:</li><br>
+          <li style="font-size: 2.5em;">피드백:</li><br>
+        </ul>
       </div>  
     </div>
     </div>
@@ -262,16 +277,19 @@
       <div class="col-md-1 bg-dark text-light"></div>
       <div class="col-md-5 bg-dark text-light">
         <h3>Contact Me</h3><br>
-        <span><a href ="https://github.com/lovinsong" target="_blank"><img src="assets/img/깃허브 아이콘.png"  width="100px" style="filter:invert()" align="middle" ></a> <h3>아이콘을 누르면 넘어갑니다.</h3></span>
 
-        </i><br><br>
-        <a href ="#" target="_blank"><img src="assets/img/메일 아이콘.png" width="100px"></a>
-        <span style="padding: 0.5em; font-size: 2em;">메일:</span>
-        <br>
-        </i><br><br>
-        <a href ="#" target="_blank"><img src="assets/img/카카오톡 아이콘.png" width="100px" style="filter:invert()"></a>
-        <span style="padding: 0.5em; font-size: 2em;">아이디:</span>
-        <br>
+        <a href ="https://github.com/lovinsong" target="_blank"><img id="icon" src="assets/img/깃허브 아이콘.png"></a>
+        <span style="padding: 0.8em; font-size: 1.3em;">깃허브: https://github.com/lovinsong</span>
+        <br><br><br>
+
+        <button id="btn" type="button"><img id="icon" src="assets/img/메일아이콘2.png"></button>
+        <span id="textDiv" style="padding: 0.8em; font-size: 1.3em;">lovinsong@kakao.com</span>
+        <br><br><br>
+
+        <button id="btn2" type="button"><img id="icon" src="assets/img/카카오톡 아이콘.png"></button>
+        <span id="textDiv2" style="padding: 0.8em; font-size: 1.3em;">lovinsong</span>
+        <br><br><br>
+        <h4>연락처 아이콘을 클릭하시면 원하시는 연락처가 클립보드로 복사 혹은 이동됩니다.</h4>
       </div>
     </div>
   </div>
@@ -279,5 +297,33 @@
 </div>
 
 </div>
+
+<script>
+  var copyBtn = document.getElementById("btn");
+  copyBtn.addEventListener("click", function(){
+      var text = document.getElementById("textDiv").innerText;
+      var createInput = document.createElement("input");
+      createInput.setAttribute("type", "text");
+      document.getElementById("textDiv").appendChild(createInput);
+      createInput.value = text;
+      createInput.select();
+      document.execCommand('copy');
+      document.getElementById("textDiv").removeChild(createInput);
+      alert('복사가 완료되었습니다.');
+  });
+  var copyBtn = document.getElementById("btn2");
+  copyBtn.addEventListener("click", function(){
+      var text = document.getElementById("textDiv2").innerText;
+      var createInput = document.createElement("input");
+      createInput.setAttribute("type", "text");
+      document.getElementById("textDiv2").appendChild(createInput);
+      createInput.value = text;
+      createInput.select();
+      document.execCommand('copy');
+      document.getElementById("textDiv2").removeChild(createInput);
+      alert('복사가 완료되었습니다.');
+  });
+</script>
+
 </body>
 </html>
