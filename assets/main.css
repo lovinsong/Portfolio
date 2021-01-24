@@ -1,6 +1,7 @@
 *{
     font-family: "야놀자 야체";
   }
+  
 h1{
     animation: typing 4s steps(16);
     font-size: 4rem;
@@ -9,8 +10,8 @@ h1{
     font-family: "야놀자 야체";
     border-right: 3px solid white;
     /* transform: translate(-50%, -50%); */
-    
 }
+
 h2{
     font-size: 40px;
 }
@@ -30,13 +31,16 @@ body{
       width: 100%;
     }
   }
+
 #boxes:hover{
   opacity: 0.5;
 
 }
+
 #icon:hover{
   opacity: 0.5;
 }
+
 #btn{
   background-color: transparent;
   border: 0px none;
@@ -44,6 +48,7 @@ body{
   outline: 0;
   padding: 0.1em;
 }
+
 #btn2{
   background-color: transparent;
   border: 0px none;
@@ -51,11 +56,22 @@ body{
   outline: 0;
   padding: 0.1em;
 }
+
 #icon{
   width:100px;
   filter:invert();
 }
+
 #skillimg:hover{
   opacity: 0.5;
   content: "열심";
+}
+
+.carousel-caption {
+  top: 50%;
+  bottom: auto;
+}
+
+.nav-link{
+  font-size: 25px;
 }
