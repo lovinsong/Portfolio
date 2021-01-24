@@ -75,3 +75,8 @@ body{
 .nav-link{
   font-size: 25px;
 }
+
+.css-progressbar {
+   width: 80%; animation: progressbar 2s ease-out; 
+}
+@keyframes progressbar { 0% { width: 0%; } 100% { width: 80%; } }
