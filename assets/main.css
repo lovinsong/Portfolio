@@ -55,3 +55,7 @@ body{
   width:100px;
   filter:invert();
 }
+#skillimg:hover{
+  opacity: 0.5;
+  content: "열심";
+}
