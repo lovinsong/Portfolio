@@ -1,13 +1,21 @@
+@font-face {
+  font-family: 'YanoljaYacheR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YanoljaYacheR.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *{
-    font-family: "야놀자 야체";
+    font-family: "YanoljaYacheR";
   }
-  
+
+
 h1{
     animation: typing 4s steps(16);
     font-size: 4rem;
     overflow: hidden;
     white-space: nowrap; 
-    font-family: "야놀자 야체";
+    font-family: "YanoljaYacheR";
     border-right: 3px solid white;
     /* transform: translate(-50%, -50%); */
 }
