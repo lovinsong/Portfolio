@@ -89,5 +89,5 @@ body{
 @keyframes progressbar { 0% { width: 0%; } 100% { width: 80%; } }
 
 #critical{
-  color: #280E3B;
+  color: red;
 }
