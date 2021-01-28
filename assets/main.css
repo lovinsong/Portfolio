@@ -16,7 +16,7 @@ h1{
     overflow: hidden;
     white-space: nowrap; 
     font-family: "YanoljaYacheR";
-    border-right: 3px solid white;
+    border-right: 0.3rem solid white;
     /* transform: translate(-50%, -50%); */
 }
 
